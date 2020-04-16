@@ -1,25 +1,29 @@
 {
-    "name": "encore/redis-manager",
+    "name": "lzh1104/redis-manager",
     "description": "Redis manager for laravel",
     "type": "library",
     "keywords": ["laravel", "redis", "manager"],
-    "homepage": "https://github.com/z-song/redis-manager",
+    "homepage": "https://github.com/lzh1104/redis-manager",
     "license": "MIT",
     "authors": [
         {
             "name": "z-song",
             "email": "zosong@126.com"
+        },
+        {
+            "name": "lzh1104",
+            "email": "wwwlzhcom@163.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "illuminate/contracts": "~5.5",
-        "illuminate/support": "~5.5",
+        "php": ">=7.1.0",
+        "illuminate/contracts": "^5.0 || ^6.0 || ^7.0",
+        "illuminate/support": "^5.0 || ^6.0 || ^7.0",
         "predis/predis": "^1.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0",
-        "laravel/laravel": "~5.5"
+        "phpunit/phpunit": "^6.0 || ^7.0",
+        "laravel/laravel": "^5.0 || ^6.0 || ^7.0"
     },
     "autoload": {
         "psr-4": {
